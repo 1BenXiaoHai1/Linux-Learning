@@ -1,0 +1,18 @@
+﻿Linux高级命令
+1.查找命令
+find -name hello.c 
+grep "test"
+grep "usb" -c -r /drivers/usb
+cscope -Rk
+
+2.管道
+ps -A | grep usb
+cat file | grep hello 
+cat file | ls > file2
+cat file | file2
+
+3.重定向
+> ：输出重定向到一个文件或设备
+>!：输出重定向到一个文件或设备，强制覆盖原来的文件
+>>：输出重定向到一个文件或设备，追加原来的文件
+< ：输入重定向到一个程序	

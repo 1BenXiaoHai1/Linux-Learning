@@ -1,0 +1,39 @@
+1.经常使用
+	cd,ls,pwd,touch,mkdir,chmod
+	cp,mv,rm,
+	cat,more,less,head,tail
+	ln:	建立连接文件
+	wc：[-lwc]统计文件行数、字符数、单词数
+	whatis:命名简单说明
+	whereis：命令的源程序或手册的位置
+	which：可执行程序的路径和它的别名
+
+	
+2.压缩与解压	
+	tar\tar.gz文件解压及压缩
+	tar xvf test.tar
+	tar cvf test.tar /dir1 /dir2 file3	
+	tar xzvf linux.tar.gz
+	tar czvf test.tar.gz /dir1 /dir2 file3
+	.gz/.z/.Z/.tgz格式文件
+	gzip file1 file2
+	gzip -d file1.gz
+	gzip -r /dir
+	gzip -rd /dirxvf
+
+3.系统相关
+	time,date,uanme,lsb_release
+	du:统计文件和目录所占磁盘空间
+	dmesg:显示内核状态信息
+	uptime:显示时间、系统运行时间、用户连接、负载
+	who/w：查看登录的用户
+	whoami\hostname
+	cal\bc：日历、计算器
+	top：查看CPU使用率
+	free：查看内存和交换空间
+	
+4.网络相关
+	ping:检测网络连接
+	ifconfig:配置网络
+	netstat
+	
